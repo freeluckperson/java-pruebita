@@ -3,11 +3,15 @@ package com.erick;
 public class DataTypeConversion {
     public static void main(String[] args) {
 
-//       Date type primitivo and date type obj
-        int numberInteger = 15;
-        Integer numberInteger2 = 15;
+        String cText="Text contain: ";
 
-        double VariableDouble = 15.0d;
-        Double VariableDouble2 = 15.0d;
+        byte bNumber = 10;
+        int iNumber= 120;
+        float fNumber = 15f;
+        double dNumber = 16d;
+        char myString = 'H';
+        boolean accurate = true;
+        cText += accurate;
+        System.out.println(cText);
     }
 }
